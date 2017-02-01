@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/simonmullis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.simonmullis.com
+  * I am simonmullis (https://keybase.io/simonmullis) on keybase.
+  * I have a public key with fingerprint 19FD A644 5C8A 34F8 FCA4  92FA 78A4 8B8A 77C7 8910
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "19fda6445c8a34f8fca492fa78a48b8a77c78910",
+            "host": "keybase.io",
+            "key_id": "78a48b8a77c78910",
+            "kid": "010102e08cee8afc45c700b0ca7e352fe43ee9bf379b472581b4ec772f8e2c2f05dd0a",
+            "uid": "b9d218d289b3737a43d417e5e1f9eb19",
+            "username": "simonmullis"
+        },
+        "service": {
+            "hostname": "www.simonmullis.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1432678639,
+    "expire_in": 157680000,
+    "prev": "7a7050869ae377bc567cd98880d079aec899d6ab5f401b3fd3f26e94966ac479",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIlAnicbZJpSFVBFMefpVKmYVQfElq8IeHC6+4z84QMIkmrL1IGpb3mzp1rt3zv
+Pu9b1OxVlJVgtollWLTQIwiJFtuoIC3CtIWkjYowHi0WtH2RUqi5j4I+NPNhmHN+
+//+Zc5jbGWNdaUnxQrPz5I7iPUn93aVh13L965cGTrP0es7TwK2nicMw/VXUDtim
+P8R5OAEZOlZlWSEQS7IBDYJlJBoYQCxDDWIACIBI4LkCbq0VdBTMRsNB6jYtFmMX
+r6mz6H/49YkEL7AtUh4SSiE2CKsEeF7jCQZUUkSDyhKlSDMkgDQZiAoUNJkSAEQD
+UpGIBq/oOo+ZXThhpyFdFKAuQqRJQAJYlnRZAFShgoGoJiAHDFLbj32U0UHTZ/l9
+4epqM8hFCziWiJiEOlNwmvkD1dbWuv8B3cTyMZeAbYUsYlUzYG0oFPA4+lB9ICGg
+mvePlVcz/TobKBNEqB00LT/nERhJQqbjLciSqAKoSqiAo3UB06Ze0yEUoEKeLacM
+jTjjw4BXeKgiTCUANKKogOgIQsjrPGBBAhHSVawphswLmmTokiGqFMlIVTGRgdN2
+kNb4Lc4jsWfiqkTvVX4cCtuUi/bcrEh2JaW5UlPGOF/ClTY+8+9HqdTHuXoOZU/a
+dy5r1tNlj8WB67Grkyvuv86e8/ZAl+vyLt/eML14dtLIiXj6pe3XL9ryhbub2h51
+ZNTc6J2HS1tzygfCZ5Yufz6z5fjR9qdNx5vf39w499u2YZo3MnHBsdiUsum3G38k
+3yu6NbjiZzR7Q3rLEHp86/tQidwaO19+IprpJcNbO65E3nXNmPrmfE5Zv/vO4mKr
+6GvumtTsbmXOhMaHyasymj8t6S3N2bLz2hH37vkLPx0sflFQ9zHW1ZcrPPNG2/P2
+V2a+mh04XJF1+nDJ5470lQ9Wr8r/oCzd3H3Fe+rlrweFPZ0R0lDWvCg/fv/JqF7j
+7utMrhnqHYyvayoaHXg+rW1jym+NkDJH
+=Ml2N
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/simonmullis
+
+==================================================================
+

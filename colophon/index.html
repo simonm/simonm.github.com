@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta content='The wonderful GNU/Emacs 22, Django and of course, Python...' name='generator' />
+        <meta content='text/html; charset=us-ascii' http-equiv='Content-type' />
+        <title>simonmullis.com :: 
+    Colophon
+</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="stylesheet" href="/static/css/master.css">
+        <link rel="stylesheet" media="all" type="text/css" href="/static/css/stylesheet.css">
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2761134-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+         </script>
+     </head>
+     <body style>
+     <div class="container">
+          <div id='header'>
+      <a href='http://simonmullis.com/'>
+        <img alt='simonmullis.com' src='/static/images/smullis-logo-small.png' />
+      </a>
+      <ul>
+        <li id='first'>
+          <a href='/'>
+            home
+          </a>
+        </li>
+        <li id='second'>
+          <a href='/about/'>
+            about
+          </a>
+        </li>
+        <li id='third'>
+          <a href='/music/'>
+            music
+          </a>
+        </li>
+        <li id='fourth'>
+          <a href='/code/'>
+            code
+          </a>
+        </li>
+        <li id='fifth'>
+          <a href='/contact/'>
+            contact
+          </a>
+        </li>
+      </ul>
+      <br class='clear' />
+    </div>
+
+
+         <div id="content" class="home" >
+             
+
+
+<p>This site is built using <a class="reference external" href="http://www.vim.org/about.php">gVim</a>, <a class="reference external" href="http://www.djangoproject.com/">Django</a> and <a class="reference external" href="http://www.python.org">Python</a>. Individual pages are written in <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>.
+It's a very simple static site so I use <a class="reference external" href="https://github.com/timetric/django-staticgenerator">Staticgenerator</a> with <a class="reference external" href="http://www.djangoproject.com/">Django</a> to make sure that the majority of the site's pages are rendered to static html files on first request and then served by <a class="reference external" href="http://wiki.nginx.org/Main">nginx</a>.
+<a class="reference external" href="http://www.danga.com/memcached/">Memcached</a> is also used to help if a page is not yet rendered statically.
+Because of all of the caching (and the very low number of visitors... ahem) <a class="reference external" href="http://www.sqlite.org/">SQLite3</a> is used as the backend DB.
+All of this delicate house-of-cards sits on a <a class="reference external" href="http://www.debian.org/">Debian</a> Virtual server hosted by the really very impressive lot at  <a class="reference external" href="http://www.bytemark.co.uk/">Bytemark</a>.</p>
+
+
+         </div>
+         <div id='footer'>
+simonmullis.com &copy 2000-2016 Simon Mullis
+</div>
+
+     </div>
+     </body>
+ </html>

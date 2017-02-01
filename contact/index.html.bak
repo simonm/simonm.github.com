@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta content='The wonderful GNU/Emacs 22, Django and of course, Python...' name='generator' />
+        <meta content='text/html; charset=us-ascii' http-equiv='Content-type' />
+        <title>simonmullis.com :: 
+    Contact
+
+</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="stylesheet" href="/static/css/master.css">
+        <link rel="stylesheet" media="all" type="text/css" href="/static/css/stylesheet.css">
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2761134-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+         </script>
+     </head>
+     <body style>
+     <div class="container">
+          <div id='header'>
+      <a href='http://simonmullis.com/'>
+        <img alt='simonmullis.com' src='/static/images/smullis-logo-small.png' />
+      </a>
+      <ul>
+        <li id='first'>
+          <a href='/'>
+            home
+          </a>
+        </li>
+        <li id='second'>
+          <a href='/about/'>
+            about
+          </a>
+        </li>
+        <li id='third'>
+          <a href='/music/'>
+            music
+          </a>
+        </li>
+        <li id='fourth'>
+          <a href='/code/'>
+            code
+          </a>
+        </li>
+        <li id='fifth'>
+          <a href='/contact/'>
+            contact
+          </a>
+        </li>
+      </ul>
+      <br class='clear' />
+    </div>
+
+
+         <div id="content" class="home" >
+             
+
+
+
+<p>If you want to contact me, you can look in all of the usual places:</p>
+<ul class=icons>
+    <li><a href="https://plus.google.com/u/0/115661079133353832250" title=GooglePlus" class="si-googleplus">GooglePlus</a></li>
+    <li><a href="https://www.facebook.com/simonmullis" title=Facebook" class="si-facebook">Facebook</a></li>
+    <li><a href="https://www.quora.com/Simon-Mullis" title=Quora" class="si-quora">Quora</a></li>
+    <li><a href="https://www.github.com/simonm" title=GitHub" class="si-github">Github</a></li>
+    <li><a href="https://www.last.fm/user/simonmullis" title=Last.fm" class="si-lastfm">Last.fm</a></li>
+    <li><a href="https://twitter.com/smullis" title=Twitter" class="si-twitter">Twitter</a></li>
+    <li><a href="https://bitbucket.org/simonm" title=BitBucket" class="si-bitbucket">BitBucket</a></li>
+    <li><a href="https://www.linkedin.com/in/smullis" title=LinkedIn" class="si-linkedin">LinkedIn</a></li>
+    <li><a href="http://www.flickr.com/photos/simonmullis/" title=Flickr" class="si-flickr">Flickr</a></li>
+    <li><a href="https://soundcloud.com/smullis" title=Soundcloud" class="si-soundcloud">Soundcloud</a></li>
+    <li><a href="http://stackoverflow.com/users/201745/wawawawa" title=StackOverflow" class="si-stackoverflow">StackOverflow</a></li>
+</ul>
+
+
+         </div>
+         <div id='footer'>
+simonmullis.com &copy 2000-2013 Simon Mullis
+</div>
+
+     </div>
+     </body>
+ </html>

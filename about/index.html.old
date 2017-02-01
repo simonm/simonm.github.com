@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta content='The wonderful GNU/Emacs 22, Django and of course, Python...' name='generator' />
+        <meta content='text/html; charset=us-ascii' http-equiv='Content-type' />
+        <title>simonmullis.com :: 
+    About
+</title>
+        <link rel="stylesheet" media="all" type="text/css" href="/static/css/stylesheet.css">
+        <script type="text/javascript" src="/static/javascript/sevenup.0.3.min.js"></script>
+        <script type="text/javascript" src="/static/javascript/sevenup_black.0.3.min.js"></script>
+    </head>
+    <body onload="sevenUp.plugin.black.test( options, callback );">
+         <div id='header'>
+      <a href='http://simonmullis.com/'>
+        <img alt='simonmullis.com' src='/static/images/smullis-logo-small.png' />
+      </a>
+      <ul>
+        <li id='first'>
+          <a href='/'>
+            home
+          </a>
+        </li>
+        <li id='second'>
+          <a href='/about/'>
+            about
+          </a>
+        </li>
+        <li id='third'>
+          <a href='http://blog.simonmullis.com/'>
+            blog
+          </a>
+        </li>
+        <li id='fourth'>
+          <a href='/music/'>
+            music
+          </a>
+        </li>
+        <li id='fifth'>
+          <a href='/code/'>
+            code
+          </a>
+        </li>
+        <li id='sixth'>
+          <a href='/contact/'>
+            contact
+          </a>
+        </li>
+      </ul>
+      <br class='clear' />
+    </div>
+
+
+        <div id="content" class="home" >
+            
+
+
+<p>Hello there. You've reached the personal site of Simon Mullis.</p>
+<div class="section" id="personal">
+<h1>Personal</h1>
+<p>I'm over 30, married to Anna, and we live in Amsterdam in the Netherlands.  I'm originally from Oxford in the UK.  We have a daughter and a son, Phoebe and Miles.
+When I'm not working, playing with technology, I love to play the bass guitar (I've been playing for around 21 years now), and cook (Nom nom nom...).</p>
+</div>
+<div class="section" id="professional">
+<h1>Professional</h1>
+<p>I attended the <a class="reference external" href="http://www.sussex.ac.uk/">University of Sussex</a> in Brighton, England and received a BSc in Chemistry; it was at this point
+I realised I never, ever wanted to see a test-tube or use a bunsen-burner again and gave up on that,
+moving into IT as a career at around the same time this Internet thing started becoming reasonably well known in popular
+culture ('95 / '96-ish).</p>
+<p>The internet found me in 1994, and <a class="reference external" href="http://groups.google.nl/group/comp.sys.ibm.pc.misc/browse_thread/thread/21584cbb7b6f0abf?hl=en">here is my first ever post</a> (back when the World-Wide-Web was considered &quot;new-fangled&quot;,
+<a class="reference external" href="http://www.instinct.org/elm/">elm</a> was my mail client and <a class="reference external" href="http://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher</a> was cutting edge.)</p>
+<p>Since then, I've worked for a number of technology startups in various pre-sales and post-sales
+roles: Sales Engineer, Developer, Systems Admin, Consultant (in no particular order).
+Since mid-2006, I've been working for <a class="reference external" href="http://www.juniper.net/">Juniper Networks</a>  initially working with the
+<a class="reference external" href="http://www.juniper.net/products_and_services/application_acceleration/data_center_acceleration/dx_application_acceleration/index.html">Layer 7 load balancers</a> and now focussing on the <a class="reference external" href="http://www.juniper.net/products_and_services/application_acceleration/wan_acceleration/wxc_application_acceleration/index.html">WAN Acceleration</a> products.</p>
+<p>My professional profile can be viewed on <a class="reference external" href="http://www.linkedin.com/in/smullis">Linked In</a></p>
+<p>If you're really interested then you can read how this site works <a class="reference external" href="/colophon/">here</a>.</p>
+</div>
+
+
+        </div>
+          <div id='footer'>
+      simonmullis.com &copy 2000-2010 Simon Mullis
+      <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA- 2761134");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+      </script>
+  </div>
+
+
+    </body>
+</html>
+
