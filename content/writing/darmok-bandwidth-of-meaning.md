@@ -95,7 +95,3 @@ I should own what this piece has been doing. To argue that meaning rides on shar
 I don't have a clean landing beyond that, and I have stopped trying to force one. We are missing the concepts we would need to describe what actually happens when a person and a machine understand each other, or fail to, at the speed these exchanges now run. The vocabulary hasn't been built.
 
 What I can say is smaller, and I think true. The fluency is real, the failure is real, and both are running constantly, mostly unexamined, in every conversation people are now having with these systems. You can work with that. You don't have to settle what it means first. You only have to remember that a shared word was never a shared meaning, and now, on the other end of the line, it is a shared word with a stranger who has read everything and agrees with you slightly less than you think.
-
----
-
-*Draft 1. Strand: Thinking Aloud. Prior-art documented; pattern-level throughout; needs Simon's voice pass and banned-phrase/em-dash sweep before publication. Spiky lines flagged for keep/kill: the "position of a year certain a colleague was disagreeing" personal sentence, and the closing "a stranger who has read everything and agrees with you slightly less than you think."*

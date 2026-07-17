@@ -31,7 +31,3 @@ Cryptography makes all of this worse, which is the part I spent those years star
 The fix is not more findings. We are not short of findings. It is the second instrument, the one that answers "what depends on this," built with the seriousness we built the first: discovery aimed at blast radius, not just at vulnerability. A map of what talks to what, what sits downstream of what, which sleepy legacy box is quietly carrying a payment rail. It is unglamorous work. It does not produce a dashboard with a satisfying number ticking down. It is also the whole difference between remediation that fixes things and remediation that trades a theoretical risk for a real outage.
 
 A finding tells you something is wrong. It has never once told you what will break when you make it right. Until the instrument that answers the second question exists, and is trusted the way the first one is, every fix is a small bet with a stake you cannot see. Most of the time you win, which is exactly what makes it dangerous, because winning teaches you it was safe. The client who went dark that afternoon had won that bet a hundred times before. The hundred-and-first was a legacy server nobody remembered, holding up the payments, invisible until the moment it wasn't.
-
----
-
-*Draft 1. Strand: Essay. Backdated to May 2025 (adapted from a piece written then). Prior-art documented; Chesterton's Fence lane deliberately avoided. Spiky lines flagged for keep/kill: "I am not going to write a worse one," and the closing "winning teaches you it was safe."*
