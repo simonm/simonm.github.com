@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-gb" data-mode="light">
+<head>
+{{ partial "head.html" . }}
+</head>
+<body class="{{ block "body-class" . }}{{ end }}">
+{{ partial "header.html" . }}
+<main>
+{{ block "main" . }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+<script>
+(function(){var b=document.querySelector('[data-mode-toggle]');if(!b)return;b.addEventListener('click',function(){var d=document.documentElement;var m=d.dataset.mode==='dark'?'light':'dark';d.dataset.mode=m;try{localStorage.setItem('mode',m);}catch(e){}});})();
+</script>
+</body>
+</html>

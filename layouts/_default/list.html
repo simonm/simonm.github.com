@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="wrap">
+  <header class="list-head">
+    <h1 class="title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+  </header>
+  <ul class="essay-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <span class="e-date">{{ .Date.Format "Jan 2006" }}</span>
+        <span class="e-body">
+          {{ with .Params.strand }}<span class="e-strand">{{ . }}</span>{{ end }}
+          <span class="e-title">{{ .Title }}</span>
+          {{ with .Description }}<span class="e-desc">{{ . }}</span>{{ end }}
+        </span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

@@ -1,0 +1,22 @@
+baseURL = "https://www.simonmullis.com/"
+locale = "en-gb"
+title = "Simon Mullis"
+enableRobotsTXT = true
+enableEmoji = false
+
+[params]
+  description = "Cybersecurity, and shipping agentic AI inside organisations that can't afford to get it wrong."
+  author = "Simon Mullis"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = false
+  [markup.highlight]
+    noClasses = true
+    style = "github"
+
+[taxonomies]
+
+[services]
+  [services.rss]
+    limit = 20

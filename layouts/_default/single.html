@@ -1,0 +1,41 @@
+{{ define "body-class" }}{{ if ne .Section "writing" }}page{{ end }}{{ end }}
+{{ define "main" }}
+{{ if eq .Section "writing" }}
+<article class="wrap essay">
+  <div class="kicker">{{ with .Params.strand }}{{ . }}{{ else }}Essay{{ end }}{{ with .Params.topic }} &middot; {{ . }}{{ end }}</div>
+  <h1 class="title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+  <div class="byline">
+    <span>Simon Mullis</span><span class="dot">&bull;</span>
+    <span>{{ .Date.Format "January 2006" }}</span><span class="dot">&bull;</span>
+    <span>{{ .ReadingTime }} min read</span>
+  </div>
+  <div class="prose">
+    {{ .Content }}
+  </div>
+  {{ with .Params.context }}
+  <aside class="context">
+    <div class="context-label">Context, for the record</div>
+    {{ with .written }}<p class="context-when">Written {{ . }}.</p>{{ end }}
+    {{ with .moment }}<p>{{ . }}</p>{{ end }}
+    {{ with .standing }}<p>{{ . }}</p>{{ end }}
+  </aside>
+  {{ end }}
+  {{ with .Params.coda }}
+  <aside class="coda">
+    <div class="coda-label">Carried forward</div>
+    {{ . | markdownify }}
+  </aside>
+  {{ end }}
+</article>
+{{ else }}
+<article class="wrap page-body">
+  {{ with .Params.photo }}<img class="headshot" src="{{ . | relURL }}" alt="Simon Mullis" width="600" height="600" loading="lazy">{{ end }}
+  <h1 class="title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+  <div class="prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
+{{ end }}

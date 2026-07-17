@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="wrap">
+  <section class="home-intro">
+    <p class="lede">I'm <strong>Simon Mullis</strong>. I've spent thirty years in cybersecurity. I write here about shipping agentic AI inside organisations that can't afford to get it wrong.</p>
+  </section>
+  <h2 class="section-label">Writing</h2>
+  <ul class="essay-list">
+    {{ range (where site.RegularPages "Section" "writing").ByDate.Reverse }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <span class="e-date">{{ .Date.Format "Jan 2006" }}</span>
+        <span class="e-body">
+          {{ with .Params.strand }}<span class="e-strand">{{ . }}</span>{{ end }}
+          <span class="e-title">{{ .Title }}</span>
+          {{ with .Description }}<span class="e-desc">{{ . }}</span>{{ end }}
+        </span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
