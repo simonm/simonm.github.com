@@ -18,5 +18,8 @@
     </li>
     {{ end }}
   </ul>
+  {{ with .Params.earlier_link }}
+  <p class="earlier-link"><a href="{{ .url | relURL }}">{{ .text }}</a></p>
+  {{ end }}
 </div>
 {{ end }}

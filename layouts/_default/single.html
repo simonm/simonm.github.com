@@ -36,6 +36,24 @@
   <div class="prose">
     {{ .Content }}
   </div>
+  {{ with .Params.earlier }}
+  <section class="earlier">
+    <ul class="essay-list">
+      {{ range . }}
+      <li>
+        <a href="{{ .url }}" rel="noopener">
+          <span class="e-date">{{ .date }}</span>
+          <span class="e-body">
+            {{ with .where }}<span class="e-strand">{{ . }}</span>{{ end }}
+            <span class="e-title">{{ .title }}</span>
+            {{ with .desc }}<span class="e-desc">{{ . }}</span>{{ end }}
+          </span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
 </article>
 {{ end }}
 {{ end }}

@@ -87,6 +87,10 @@ a:hover { color: var(--accent); }
 /* ---------- list page head ---------- */
 .list-head { margin-bottom: 2.6rem; }
 .list-head .title { margin-bottom: .6rem; }
+.earlier { margin-top: 2.4rem; }
+.earlier-link { margin: 1.8rem 0 0; font-family: var(--font-mono); font-size: .72rem; text-transform: uppercase; letter-spacing: .1em; }
+.earlier-link a { color: var(--muted); text-decoration: none; }
+.earlier-link a:hover { color: var(--accent); }
 
 /* ---------- article ---------- */
 .essay { padding-bottom: 2rem; }
