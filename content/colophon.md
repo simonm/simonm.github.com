@@ -9,4 +9,6 @@ That's deliberate. Writing about AI dates badly, because you usually can't tell 
 
 And it's the whole point. I write about agentic AI and security, and about what it takes to ship real systems inside organisations that can't afford to get it wrong: architecture, governance, regulation, the occasional detour through cryptography. Most of it comes back to context, one way or another, and a site about context that threw its own away would be embarrassing.
 
+There's a page called [Positions](/positions/) that does the opposite job. The essays stay pinned to their dates. That page holds what I currently think, and gets rewritten whenever something changes my mind. Keeping both means I can revise a view without pretending I always held it. A dated essay is a record of what I thought then; Positions is a claim about now, and it carries its own revision date so you can see how fresh the claim is.
+
 The site itself is built with Hugo, statically generated, and hosted on GitHub Pages. Self-hosted fonts, self-hosted images, no analytics, no trackers, no third-party calls of any kind. The type is IBM Plex. View the source and you'll find nothing phoning home. None of that is decoration. It's the same discipline I'd want from anything I put in front of real users.
