@@ -104,6 +104,7 @@ a:hover { color: var(--accent); }
 .prose { counter-reset: sec; }
 .prose > p { margin: 0 0 1.35rem; }
 .prose > p:first-of-type { border-left: 2px solid var(--accent); padding-left: 1.15rem; font-size: 1.28rem; line-height: 1.5; }
+.prose > p:first-of-type:has(+ blockquote) { border-left: 0; padding-left: 0; font-size: .95rem; color: var(--muted); margin-bottom: .55rem; }
 .prose h2 { font-size: clamp(1.3rem, 3vw, 1.62rem); line-height: 1.16; margin: 2.9rem 0 1rem; font-weight: 600; letter-spacing: -.01em; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
 .prose h2::before { counter-increment: sec; content: "\00a7 " counter(sec, decimal-leading-zero); display: block; font-family: var(--font-mono); font-size: .72rem; color: var(--accent); letter-spacing: .12em; margin-bottom: .55rem; font-weight: 500; }
 .prose h3 { font-size: 1.15rem; font-weight: 600; margin: 2rem 0 .8rem; }
