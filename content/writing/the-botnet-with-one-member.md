@@ -1,7 +1,7 @@
 ---
 title: "The Botnet With One Member"
 date: 2026-07-18
-description: "In 2013 I built a botnet with a single member and watched the world's antivirus vendors connect to it. The lesson took thirteen years to matter: when capability gets cheap on both sides, the advantage moves to whoever understands the channel between them, not whoever holds the better tool."
+description: "In 2013 I built a botnet with one member and watched the world's antivirus vendors connect to it. When capability gets cheap on both sides, the advantage moves to whoever understands the channel between them."
 strand: "Essay"
 topic: "Security"
 draft: false

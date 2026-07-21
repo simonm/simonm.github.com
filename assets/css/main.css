@@ -96,7 +96,7 @@ a:hover { color: var(--accent); }
 .essay { padding-bottom: 2rem; }
 .kicker { font-family: var(--font-mono); color: var(--accent); text-transform: uppercase; letter-spacing: .18em; font-size: .74rem; margin-bottom: 1.1rem; }
 .title { font-size: clamp(2.1rem, 5vw, 2.95rem); line-height: 1.06; margin: 0 0 1rem; font-weight: 600; letter-spacing: -.018em; }
-.subtitle { color: var(--muted); font-size: 1.15rem; line-height: 1.45; margin: 0 0 2rem; }
+.subtitle { color: var(--ink); font-size: 1.3rem; line-height: 1.42; margin: 0 0 2rem; font-weight: 400; opacity: .82; }
 .byline { font-family: var(--font-mono); color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .1em; padding-bottom: 2rem; margin-bottom: 2.6rem; border-bottom: 1px solid var(--rule); display: flex; gap: .8rem; align-items: center; flex-wrap: wrap; }
 .byline .dot { color: var(--accent); }
 

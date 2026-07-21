@@ -1,7 +1,7 @@
 ---
 title: "Darmok, Brown M&Ms, and the Bandwidth of Meaning"
 date: 2026-07-17
-description: "Shared concepts are the highest-bandwidth channel between two minds, and the easiest place to agree on nothing."
+description: "Shared concepts are the highest-bandwidth channel between two minds, and the easiest place to agree on nothing. What that means now that one of the minds is a language model."
 strand: "Thinking Aloud"
 topic: "Communication"
 draft: false
