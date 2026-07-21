@@ -17,3 +17,9 @@
 <script>
 (function(){try{var m=localStorage.getItem('mode');if(!m){m=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.dataset.mode=m;}catch(e){document.documentElement.dataset.mode='light';}})();
 </script>
+{{ if and hugo.IsProduction site.Params.plausible }}
+<script async src="https://plausible.io/js/{{ site.Params.plausible }}.js"></script>
+<script>
+window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()
+</script>
+{{ end }}

@@ -7,6 +7,9 @@ enableEmoji = false
 [params]
   description = "Cybersecurity, and shipping agentic AI inside organisations that can't afford to get it wrong."
   author = "Simon Mullis"
+  # Plausible analytics script ID, from the snippet in the Plausible dashboard.
+  # Only loaded in production builds, so local hugo server traffic is never counted.
+  plausible = "pa-CGiyOyGhoqNUOKi1rTyxD"
 
 [markup]
   [markup.goldmark.renderer]
